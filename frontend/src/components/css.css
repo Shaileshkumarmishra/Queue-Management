@@ -1,0 +1,119 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Card styling */
+.card {
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 15px;
+}
+
+.card-body {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.card-body strong {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Styling for the feedback rows inside the card */
+.card-body .row {
+    margin-bottom: 15px;
+}
+
+/* Table Styling */
+.table {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.table-bordered {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.table th, .table td {
+    text-align: center;
+    padding: 12px;
+    vertical-align: middle;
+}
+
+.table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.table-striped tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+/* Button styling */
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #28a745;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Center the button */
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Margin for sections */
+.mt-4 {
+    margin-top: 40px;
+}
+
+.mb-3 {
+    margin-bottom: 20px;
+}
+
+.padding30px {
+    padding: 30px;
+}
+
+/* Add spacing between cards */
+.card.mb-4 {
+    margin-bottom: 30px;
+}
